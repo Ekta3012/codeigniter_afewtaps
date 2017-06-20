@@ -1,0 +1,630 @@
+*,body{
+	
+	font-family: 'Optima';
+	
+}
+
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+
+
+
+@font-face {
+	font-family: 'Optima';
+	src: url('../fonts/optima/Optima.eot');
+	src: url('../fonts/optima/Optima.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/optima/Optima.woff2') format('woff2'),
+		url('../fonts/optima/Optima.woff') format('woff'),
+		url('../fonts/optima/Optima.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+.navbar{
+width:90%; 
+
+
+
+}
+
+
+.changedbord{
+border-bottom:3px solid #03a6ff;
+}
+
+
+
+
+
+.photo-thumb{
+border-radius:10px;
+
+}
+
+
+@media only screen and (max-width:480px) {
+    .thelogotextcl{
+           font-size:12px;
+        }
+}
+
+.changicosiz{
+width:70px;
+}  
+
+.carousel-indicators{
+top:100%;
+}
+
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+
+
+@media (max-width: 1202px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+        float:left;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+
+
+
+@media (max-width: 1400px) {
+  .seven-cols .col-md-2,
+  .seven-cols .col-xs-2,
+  .seven-cols .col-sm-2 {
+    width: 12.5%;
+    padding-bottom:30px;
+    }
+}
+
+
+.thehomeicos:hover{
+border-bottom:3px solid #03a6ff;
+cursor:pointer;
+}   
+
+
+.thisiwllberight{
+display:inline-block;
+ color: #03a6ff;
+ padding:4px;
+ font-weight:bold;
+ font-size:12px;
+}
+
+.theparafontinc{
+font-size:20px;
+color:#161616;
+font-weight:700;
+}
+
+
+a {
+    color: #03a6ff;
+    text-decoration: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 448px) {
+    .theheadingsreponsive {
+        font-size:44px;
+    }
+	.theotherheadingsreponsive{
+		font-size:38px;
+		
+	}
+	.careertextsmall{
+	font-size:14px;
+	}
+}
+
+.slidetwentytwo{
+	background-color:#dde0e0;
+	
+}
+
+#eleven_twelve{
+	display:none;
+	background-color:white;
+	color:#161616;
+	box-shadow: 0 -3px 16px -3px #d1d2bf;
+}
+
+
+#twentythree_twentyfour{
+	display:none;
+	
+}
+
+.theclosebuttonformopen{
+	cursor:pointer;
+	
+}
+ 
+/* loader  */
+div#loadingthescreen{
+	background-color:white;
+	opacity:1;
+	position:fixed;
+	z-index:10;
+	top:0px;
+	width:100%;
+	height:1600px;
+	
+	
+	
+	
+}
+
+.changspanins{
+font-weight:bold;
+color:#161616;
+}
+
+
+div#loadingthescreen > div#itsloading {
+	color:#03affc;
+	width:120px;
+	height:24px;
+	margin:300px auto;
+	
+}
+
+/* end of the loader */
+
+
+.thefirstdiv{
+	background-image:url("webhome.jpg");
+	background-size:cover;
+	
+    background-repeat: no-repeat;
+   
+	color:white;
+	
+	
+	
+	
+}
+
+
+/* the back to top button */
+
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    right: 10px; /* padding from the left side of the window */
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px; /* height of link element */
+    right: 10px; /* padding from the left side of the window */
+}
+
+
+
+
+
+/* end of back to top button */
+
+
+.openingnavbar{
+font-size:30px;
+cursor:pointer;
+color:white;
+transition:all 1s ease;
+}
+
+
+
+.imghorizontal{
+	display:inline-block;
+	/* padding:40px; */
+	width:80px;
+	    margin-left: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-right: 50px;
+	
+	
+	
+}
+
+.namehorizontal{
+	
+	padding:8px;
+	
+}
+
+.name2horizontal{
+	display:inline-block;
+	padding:49px;
+	
+}
+.name2horizontal:hover{
+	display:inline-block;
+	padding:49px;
+	border-bottom:3px solid #161616;
+	
+}
+
+.terms_heading{
+    font-weight:bold;
+    font-size:24px;
+}
+
+.terms_para{
+font-size:18px;
+}
+
+
+.namehorizontal:hover{
+	
+	border-right:3px solid #161616;
+}
+
+.imghorizontalsecond{
+	display:inline-block;
+	/*padding:26px;*/
+	margin-left: 52px;
+	margin-right: 52px; 
+	padding-bottom: 40px;
+	padding-top: 40px; 
+	width: 80px;
+	
+	
+	
+}
+
+.imghorizontalsecond:hover{
+	border-bottom:3px solid #00aaaa;
+	cursor:pointer;
+	
+}
+
+.fourthdiv{
+	
+	background-color:white;
+}
+
+
+#fifteen_sixteenseventeen{
+
+	
+}
+
+#six_seveneightnintenele{
+	
+	
+}
+.theclosebutton{
+
+}
+
+
+
+.fifteenslide{
+	
+	
+}
+
+.theclosebutton{
+	color: #1ebcc5;
+	font-size: 24px;
+	font-weight: 200;
+	padding-top:2px;
+	cursor:pointer;
+	
+}
+
+.theclosebutton:hover{
+	color:#f6f6f6;
+	
+	
+}
+
+.theclosebuttonsec{
+		color: #1ebcc5;
+	font-size: 24px;
+	font-weight: 200;
+	padding-top:2px;
+	cursor:pointer;
+	
+}
+
+.theclosebuttonsec:hover{
+		color:#f6f6f6;
+	
+}
+
+.theclosebuttonserviceapp{
+		color: #1ebcc5;
+	font-size: 24px;
+	font-weight: 200;
+	padding-top:2px;
+	cursor:pointer;
+	
+	
+}
+
+.theclosebuttonserviceapp:hover{
+	
+	color:#f6f6f6;
+}
+
+.theseventhslide{
+	
+
+        
+color:#161616;	
+padding-bottom:40px;
+
+
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f6f6f6;
+  cursor:pointer;
+}
+
+#blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0;}
+}
+
+.androidappfirst{
+	background-color:white;
+	padding:12px;
+	border-radius:6px;
+	cursor:pointer;
+	transition:all 1s ease ;
+}
+
+
+.androidappfirst:hover{
+
+background-color:#00AAAA;
+
+}
+
+.androidappsec{
+	background-color:#dde0e0;
+	padding:12px;
+	border-radius:6px;
+	cursor:pointer;
+	transition:all 1s ease ;
+	
+	
+}
+
+.androidappsec:hover{
+	background-color:#00AAAA;
+	
+}
+
+#showthirdfourthfifth{
+	width:40px;
+	cursor:pointer;
+}
+
+.slideeighteen{
+	background-color:#f2f2f2;
+	
+}
+
+.slidetwentyone{
+	background-color:#f6f6f6;
+	margin-top:50px;
+	box-shadow: 0 -5px 5px -5px snow;
+	box-shadow: 0 5px 5px -5px snow;
+			
+	
+}
+
+#learnmore_serviceapp{
+	width:40px;
+	cursor:pointer;
+	border-radius:100%;
+	transition:all 1s ease;
+	position:relative;
+	z-index:1000;
+	
+}
+
+
+
+
+
+
+
+#showform{
+	width:40px;
+	cursor:pointer;
+	border-radius:100%;
+	transition:all 1s ease;
+	position:relative;
+	z-index:1000;
+	
+}
+
+
+
+.thesixthslide{
+	    
+   
+   
+	
+}
+
+.slidenineteen{
+	background-color:#161616;
+	
+}
+
+.imghorizontal:hover{
+	
+	border-bottom:3px solid #00aaaa;
+	cursor:pointer;
+	
+}
+
+.thenavlist{
+	font-size:18px;
+	color:white;
+	padding-left:28px;
+	padding-right:28px;
+	
+}
+
+
+
+#sec_thirdfourthfifth{
+	background-color:#f2f2f2;
+	color:#161616;
+	padding-top:70px;
+	
+}
+
+#theseconddiv{
+	
+}
+/* the sidebar coding */
+	
+	.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+	
+	
+}
+
+.sidenav a {
+  
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* end of the sidebar coding */
+
+.sidebarlists{
+	color:#008080;
+	font-weight:bold;
+        font-size:12px;
+	
+	
+	
+	display:inline-block;
+}
+
+.thepagemenu{
+	display:inline-block;
+	
+	
+}
+
+  .thisisthemobcar{
+  display:none;
+  }
+
+.thisisthelapcar{
+display:block;
+}
+
+
+@media screen and (max-width: 550px) {
+  .thisisthemobcar
+  {
+  display:block;
+  }
+  
+  .thisisthelapcar{
+  display:none;
+  }
+  
+ 
+}
