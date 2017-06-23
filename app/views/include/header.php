@@ -11,10 +11,11 @@
 <title>afewtaps</title>
 <base href="<?php echo base_url(); ?>" />
 <!-- the stylesheets -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" >
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css" /> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+   <!--  <link rel="stylesheet" href="assets/css/animate.css" > -->
    
 
 	<!-- the fonts -->
@@ -38,8 +39,7 @@
 
     <script src="https://use.fontawesome.com/5cd91b09e0.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/stylesheet.css') }}">
-    <script src="{{ URL::asset('js/script.js') }}"></script>
+    <script src="assets/js/scripts.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $(".sec3_p1").mouseenter(function(){

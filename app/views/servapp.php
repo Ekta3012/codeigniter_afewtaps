@@ -1,3 +1,8 @@
+<?php
+
+$this->load->view('include/header.php');
+
+?>
 <div class="container-fluid">
 		<div class="row" style="padding: 3%;">
 			<div class="col-sm-5">
@@ -125,13 +130,13 @@
 				<div class="col-sm-2 li1"  style="border-bottom: 1px solid #000;">
 					Escalation Limit
 				</div>
-				<div class="col-sm-2 li2">
+				<div class="col-sm-2 li2" style="padding-right: 0px;">
 					Order Status
 				</div>
 				<div class="col-sm-1 li3" style="padding-left: 0px; padding-right: 0px;">
 					New Orders
 				</div>
-				<div class="col-sm-2 li4">
+				<div class="col-sm-2 li4" style="padding-left: 0px;">
 					Serving Time
 				</div>
 				<div class="col-sm-2 li5">

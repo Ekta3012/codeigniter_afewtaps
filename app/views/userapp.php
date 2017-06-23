@@ -1,4 +1,9 @@
-<body style="color: #000;">
+<?php
+
+$this->load->view('include/header.php');
+
+?>
+<body style="color: #000; font-family:'Myriad Pro Light' !important; letter-spacing: 1.5px;">
 	<div class="container-fluid">
 		<div class="header row">
 			<h1>Introducing Smartphone Ordering</h1>
