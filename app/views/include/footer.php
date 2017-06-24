@@ -10,11 +10,12 @@
 			</div>
 			<div class="col-sm-6" style="text-align: right;">
 				<ul style="list-style: none;">
-			        <li><a href="{!! url('/career'); !!}" style="text-decoration: none; color: #fff;">Career</a></li>
-			        <li><a href="{!! url('/faq'); !!}" style="text-decoration: none; color: #fff;">FAQ</li>
-			        <li><a href="{!! url('/blog'); !!}" style="text-decoration: none; color: #fff;">Blog</a></li>
-			        <li><a href="{!! url('/feedback'); !!}" style="text-decoration: none; color: #fff;"><li><a href="{!! url('/privacy'); !!}" style="text-decoration: none; color: #fff;">Privacy</a></li>
-                              <li><a href="{!! url('/terms'); !!}" style="text-decoration: none; color: #fff;">Terms</a></li>
+			        <li><a href="<?php echo site_url(); ?>/welcome/career" style="text-decoration: none; color: #fff;">Career</a></li>
+			        <li><a href="<?php echo site_url(); ?>/welcome/faq" style="text-decoration: none; color: #fff;">FAQ</li>
+			        <li><a href="<?php echo site_url(); ?>/welcome/blog" style="text-decoration: none; color: #fff;">Blog</a></li>
+			        <li><a href="<?php echo site_url(); ?>/welcome/feedback" style="text-decoration: none; color: #fff;">Feedback</a></li>
+			        <li><a href="<?php echo site_url(); ?>/welcome/privacypolicy" style="text-decoration: none; color: #fff;">Privacy</a></li>
+                    <li><a href="<?php echo site_url(); ?>/welcome/terms" style="text-decoration: none; color: #fff;">Terms</a></li>
 			      </ul>
 				<p style="font-size: 13px;">Copyright © 2017 Think Different Technologies (P) Ltd</p>
 			</div>

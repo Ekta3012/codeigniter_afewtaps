@@ -277,7 +277,7 @@ $this->load->view('include/header.php');
      				<h4 >Place orders at your own convenience.</h4>
      				<h4 style="margin: 0; ">#notforhomedelivery</h4>                    
      				<p style="font-size: 18px; padding-top: 6%;">
-     					<a href="{!! url('/smartphone'); !!}" style="text-decoration: none; color: #fff; ">Learn More <i class="fa fa-angle-right" aria-hidden="true" style="color: #fff; padding-left: 1%; font-size: 18px;"></i></a>
+     					<a href="<?php echo site_url(); ?>/welcome/userapp" style="text-decoration: none; color: #fff; ">Learn More <i class="fa fa-angle-right" aria-hidden="true" style="color: #fff; padding-left: 1%; font-size: 18px;"></i></a>
 
      				</p>
      			</div>
@@ -299,7 +299,7 @@ $this->load->view('include/header.php');
      					Its lightning fast and connected to your POS.<br>
      					All you need is a good hand at typing.</h4>
      					<p style="font-size: 18px; padding-top: 6%;">
-     						<a href="{!! url('/service'); !!}" style="text-decoration: none; color: #fff; ">Learn More <i class="fa fa-angle-right" style="color: #fff; padding-left: 1%; font-size: 18px;" aria-hidden="true"></i></a>
+     						<a href="<?php echo site_url(); ?>/welcome/servapp" style="text-decoration: none; color: #fff; ">Learn More <i class="fa fa-angle-right" style="color: #fff; padding-left: 1%; font-size: 18px;" aria-hidden="true"></i></a>
      					</p>
      				</div>
      			</div>
@@ -320,7 +320,7 @@ $this->load->view('include/header.php');
      				<img src="images/system.png" style="height: 100px;">
      				<h2 style="padding-left: 5%; padding-right: 5%;">afewtaps - Web Dashboard </h2>
      				<h4>Handling operations. Works on any browser.</h4>
-     				<a href="{!! url('/management'); !!}"><img src="images/arrow_right.png" class="img-responsive" style="margin: 1% auto;"></a>
+     				<a href="<?php echo site_url(); ?>/welcome/management"><img src="images/arrow_right.png" class="img-responsive" style="margin: 1% auto;"></a>
      			</div>
      		</div>
      	</div>  
@@ -377,12 +377,7 @@ $this->load->view('include/header.php');
      		</div>
      	</div>
      </div>
-     <div class=" col-xs-4 col-md-4">
-     	<span class="pull-right" data-toggle="modal" data-target="#myModal" style="cursor:pointer;">
-     		<img style="padding-left:4px;" src="images/loginicon1.png"  alt="login"><br>	
-
-     	</span>
-     </div>		
+    	
 <div class="row" style="background-color: #000; color: #fff; padding: 7%; text-align: center; font-size: 20px;">
 	“What we propose to restaurants, is having a mix of both worlds (Manual & <br>Smartphone ordering) for the customer.”
 </div>
@@ -427,52 +422,75 @@ $this->load->view('include/header.php');
                     <i id="cross" class="fa fa-times" aria-hidden="true" style="color: #fff; background-color: #000; padding: 1%; margin: auto; border-radius: 25px; font-size: 15px; margin-left: 50%;"></i>
                 </div>
                 <div class="input_box">
-                    <input type="text" name="restaurants_name" placeholder="Restaurant Name" class="form-control">
+                    <input type="text" name="restaurants_name" placeholder="Restaurant Name" id="email" class="form-control">
                 </div>
                 <div class="input_box">
-                    <input type="text" name="restaurants_address" placeholder="Restaurant Address" class="form-control">
+                    <input type="text" name="restaurants_address" placeholder="Restaurant Address" id="pwd" class="form-control">
                 </div>
                 <div class="input_box">
-                    <input type="text" name="contact_name" placeholder="Contact Name" class="form-control">
+                    <input type="text" name="contact_name" placeholder="Contact Name"  id="te" class="form-control">
                 </div>
                 <div class="input_box">
-                    <input type="text" name="contact_num" placeholder="Contact Number" class="form-control">
+                    <input type="text" name="contact_num" placeholder="Contact Number" id="tex" class="form-control">
                 </div> -->
                 <!-- <div class="input_box">
-                    <textarea class="form-control" rows="3" cols="8" name="message" placeholder="Message" style="background-color: #fff;"></textarea>
+                    <input type="text" class="form-control"  name="message" id="text" placeholder="Message" style="background-color: #fff;"></textarea>
                 </div>  --> 
                 <!-- <div class="input_box" style="padding-left: 8%;">
                     <input type="submit" name="submit" style="background-color: #000; color: #fff; font-weight: bolder; padding: 8% 27%;  margin: auto;  font-size: 17px; border-radius: 5px; text-transform: uppercase;">
                 </div>  
                 {{ Form::close() }} -->
-                <?php echo form_open(); ?>
+               
+                     <?php echo form_open('',array('id'=>'restaurant_details')); ?>
 
-                <div class="form-group">
+               <!--  <div class="form-group">
 
-                	<input type="email" class="form-control center-block animate fadeInDown" id="email" style="width:70%;border:none;border-bottom:2px solid black;box-shadow:0px 0px 0px 0px;border-radius:0px;font-size:16px;background-color:#e6e7e7;text-align:center;margin-top: 34px;" placeholder="Restaurant Name">
-
-                </div>
-                <div class="form-group">
-
-                	<input type="text" class="form-control center-block animate fadeInDown" id="pwd" style="width:70%;border:none;border-bottom:2px solid black;box-shadow:0px 0px 0px 0px;border-radius:0px;font-size:16px;background-color:#e6e7e7;text-align:center;margin-top: 34px;" placeholder="Restaurant Address">
+                    <input type="email" class="form-control center-block animate fadeInDown" id="email" style="width:70%;border:none;border-bottom:2px solid black;box-shadow:0px 0px 0px 0px;border-radius:0px;font-size:16px;background-color:#e6e7e7;text-align:center;margin-top: 34px;" placeholder="Restaurant Name">
 
                 </div>
                 <div class="form-group">
 
-                	<input type="text" class="form-control center-block animate fadeInDown" id="te" style="width:70%;border:none;border-bottom:2px solid black;box-shadow:0px 0px 0px 0px;border-radius:0px;font-size:16px;background-color:#e6e7e7;text-align:center;margin-top: 34px;" placeholder="Contact Name">
+                    <input type="text" class="form-control center-block animate fadeInDown" id="pwd" style="width:70%;border:none;border-bottom:2px solid black;box-shadow:0px 0px 0px 0px;border-radius:0px;font-size:16px;background-color:#e6e7e7;text-align:center;margin-top: 34px;" placeholder="Restaurant Address">
+
                 </div>
                 <div class="form-group">
 
-                	<input type="text" class="form-control center-block animate fadeInDown" id="tex" style="width:70%;border:none;border-bottom:2px solid black;box-shadow:0px 0px 0px 0px;border-radius:0px;font-size:16px;background-color:#e6e7e7;text-align:center;margin-top: 34px;" placeholder="Contact Number"> 
+                    <input type="text" class="form-control center-block animate fadeInDown" id="te" style="width:70%;border:none;border-bottom:2px solid black;box-shadow:0px 0px 0px 0px;border-radius:0px;font-size:16px;background-color:#e6e7e7;text-align:center;margin-top: 34px;" placeholder="Contact Name">
                 </div>
                 <div class="form-group">
 
-                	<input type="text" class="form-control center-block animate fadeInDown" id="text" style="width:70%;height:90px;border:none;box-shadow:0px 0px 0px 0px;border-radius:8px;font-size:16px;text-align:center;margin-top:34px;" placeholder="Your Message">
+                    <input type="text" class="form-control center-block animate fadeInDown" id="tex" style="width:70%;border:none;border-bottom:2px solid black;box-shadow:0px 0px 0px 0px;border-radius:0px;font-size:16px;background-color:#e6e7e7;text-align:center;margin-top: 34px;" placeholder="Contact Number"> 
+                </div>
+                <div class="form-group">
+
+                    <input type="text" class="form-control center-block animate fadeInDown" id="text" style="width:70%;height:90px;border:none;box-shadow:0px 0px 0px 0px;border-radius:8px;font-size:16px;text-align:center;margin-top:34px;" placeholder="Your Message">
                 </div>
 
-                <button type="submit" class="btn btn-default center-block animate fadeInDown" style="width:auto;margin-top:34px;background-color:#161616;background-image:none;padding:20px;color:white;border-radius:8px;">SUBMIT</button>
+                <button type="submit" class="btn btn-default center-block animate fadeInDown" style="width:auto;margin-top:34px;background-color:#161616;background-image:none;padding:20px;color:white;border-radius:8px;">SUBMIT</button> -->
+                <div>
+                    <i id="cross" class="fa fa-times" aria-hidden="true" style="color: #fff; background-color: #000; padding: 1%; margin: auto; border-radius: 25px; font-size: 15px; margin-left: 50%;"></i>
+                </div>
+                <div class="input_box">
+                    <input type="text" name="restaurants_name" placeholder="Restaurant Name" id="email" class="form-control" style="width: 100%;">
+                </div>
+                <div class="input_box">
+                    <input type="text" name="restaurants_address" placeholder="Restaurant Address" id="pwd" class="form-control" style="width: 100%;">
+                </div>
+                <div class="input_box">
+                    <input type="text" name="contact_name" placeholder="Contact Name"  id="te" class="form-control" style="width: 100%;">
+                </div>
+                <div class="input_box">
+                    <input type="text" name="contact_num" placeholder="Contact Number" id="tex" class="form-control" style="width: 100%;">
+                </div>
+                <div class="input_box">
+                    <input type="text" class="form-control"  name="message" id="text" placeholder="Message" style="width: 100%;">
+                </div>  
+                <div class="input_box" style="padding-left: 8%;">
+                    <input type="submit" name="submit" style="background-color: #000; color: #fff; font-weight: bolder; padding: 8% 27%;  margin: auto;  font-size: 17px; border-radius: 5px; text-transform: uppercase;">
+                </div>  
 
-                <?php echo form_close(); ?>
+                <?php echo form_close(); ?> 
+                
             </div>
             <div class="insta row">
             	<img src="images/insta.png" class="img-responsive" style="margin: auto; width: 40px;">
@@ -549,12 +567,12 @@ $this->load->view('include/header.php');
             				</div>
             				<div class="col-sm-6">
             					<ul id="footer_list">
-            						<li><a href="{!! url('/career'); !!}" style="text-decoration: none; color: #fff;">Career</a></li>
-            						<li><a href="{!! url('/faq'); !!}" style="text-decoration: none; color: #fff;">FAQ</a></li>
-            						<li><a href="{!! url('/blog'); !!}" style="text-decoration: none; color: #fff;">Blog</a></li>
-            						<li><a href="{!! url('/feedback'); !!}" style="text-decoration: none; color: #fff;">Feedback</a></li>
-            						<li><a href="{!! url('/privacy'); !!}" style="text-decoration: none; color: #fff;">Privacy</a></li>
-            						<li><a href="{!! url('/terms'); !!}" style="text-decoration: none; color: #fff;">Terms</a></li>
+            						<li><a href="<?php echo site_url(); ?>/welcome/career" style="text-decoration: none; color: #fff;">Career</a></li>
+                                      <li><a href="<?php echo site_url(); ?>/welcome/faq" style="text-decoration: none; color: #fff;">FAQ</li>
+                                      <li><a href="<?php echo site_url(); ?>/welcome/blog" style="text-decoration: none; color: #fff;">Blog</a></li>
+                                      <li><a href="<?php echo site_url(); ?>/welcome/feedback" style="text-decoration: none; color: #fff;">Feedback</a></li>
+                                      <li><a href="<?php echo site_url(); ?>/welcome/privacypolicy" style="text-decoration: none; color: #fff;">Privacy</a></li>
+                                   <li><a href="<?php echo site_url(); ?>/welcome/terms" style="text-decoration: none; color: #fff;">Terms</a></li>
             					</ul>
             				</div>
             			</div>
