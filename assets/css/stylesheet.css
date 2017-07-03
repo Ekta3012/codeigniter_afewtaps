@@ -196,11 +196,15 @@ ul
 	background-repeat:no-repeat;
 	background-position: 100% 100%;
 	background-size:cover;
-	height: 680px;	
+	height: 680px;
+	
+	
+	padding-left: 0px; 
+	padding-right: 0px;	
 }
 .sec3_layer{
 	background: rgba(0,0,0,0.5);
-	padding: 41% 0%;
+	
 }
 .sec3_2{
 	padding-left: 0px;
@@ -209,6 +213,9 @@ ul
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 	height: 680px;
+	
+	padding-left: 0px; 
+	padding-right: 0px;
 }
 #sec3_p1{
 	height: 80%;
@@ -232,6 +239,10 @@ ul
 	color: #fff;
 	font-style: italic;
 	font-weight: 900;
+}
+.responsive_text{
+	padding: 3% 7% 7% 7%; 
+	font-size: 2em;
 }
 .add{
 	background-color: #778899;
@@ -551,4 +562,46 @@ span.sqr{
     margin:0 1em .5em 0;
     float:left; 
     border-radius: 10px;
+}
+.dashboard{
+	padding-left: 5%; padding-right: 5%;
+}
+.submit{
+	padding-left: 8%;
+}
+
+@media only screen and (max-width: 768px) {
+	.sec3_1{
+		height: 100% ;
+	}
+	.sec3_2{
+		height: 100% ;
+	}
+	.responsive_text{
+		font-size: 1em;
+	}
+	.dashboard{
+		font-size: 24px;
+	}
+	.handling{
+		font-size: 14px;
+	}
+	.p1{
+		margin-top: 370px;
+	}
+	.p2{
+		margin-top: 310px;
+	}
+	.star_img{
+		height: 30px;
+	}
+	.email_footer{
+		margin: auto;
+	}
+	.list{
+		text-align: center;
+	}
+	.submit{
+		padding-left: 0;
+	}
 }

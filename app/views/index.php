@@ -228,32 +228,35 @@ $this->load->view('include/header.php');
 				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 			</div>
 		</div>
-	</div>           
-				<p id="time">
-					<script type="text/javascript">
-						var date = new Date();  
-						var options = {  
-							month: "short",  
-							day: "numeric", hour: "2-digit", minute: "2-digit"  
-						};  
-						document.write(date.toLocaleTimeString("en-us", options));  
-					</script>
-				</p>            
-				<p class="header_home">afewtaps app </p>
-				<h2 style="margin-top: 1%">Hello, welcome to afewtaps.</h2> 
-				<ul class="mac">
-					<li style="margin-left: -14px;"><img src="images/ipad.png"  class="img-responsive ipad" ></li>
-					<li ><img src="images/iphone.png" class="img-responsive iphone"></li>
-				</ul>   
-				<h4 style="clear: left; padding-top: 3%;"><span style="font-family: myriad-pro-condensed, sans-serif;">Take</span> Orders. <span style="font-family: myriad-pro-condensed, sans-serif;">Place</span> Orders.</h4>   
-				<hr class="hr_top">                             
-				<p class="section"> Order Taking and Customer Ordering services </p>
-             <!--<button class="btn Store"><img src="images/apple.png">&nbsp; &nbsp; App Store</button>
-             <button class="btn Store" style="display: inline; margin-top: 0px;"><img src="images/android.png">&nbsp; &nbsp; Play Store</button> -->
-             <img src="images/appstore.png" class="img-responsive" style="height: 45px;  margin-top: 7%; display: inline;">
-             <img src="images/downarrow.png" style="float: right; height: 25px; display: inline; margin-top: 9%; padding-right: 2%;">
-         </div>
-     </div> 
+	          
+		
+   <!--<button class="btn Store"><img src="images/apple.png">&nbsp; &nbsp; App Store</button>
+   <button class="btn Store" style="display: inline; margin-top: 0px;"><img src="images/android.png">&nbsp; &nbsp; Play Store</button> --></div> </div>
+   <p id="time">
+               <script type="text/javascript">
+                    var date = new Date();  
+                    var options = {  
+                         month: "short",  
+                         day: "numeric", hour: "2-digit", minute: "2-digit"  
+                    };  
+                    document.write(date.toLocaleTimeString("en-us", options));  
+               </script>
+          </p>            
+          <p class="header_home">afewtaps app </p>
+          <h2 style="margin-top: 1%">Hello, welcome to afewtaps.</h2> 
+          <ul class="mac">
+               <li style="margin-left: -14px;"><img src="images/ipad.png"  class="img-responsive ipad" ></li>
+               <li ><img src="images/iphone.png" class="img-responsive iphone"></li>
+          </ul>   
+          <h4 style="clear: left; padding-top: 3%;"><span style="font-family: myriad-pro-condensed, sans-serif;">Take</span> Orders. <span style="font-family: myriad-pro-condensed, sans-serif;">Place</span> Orders.</h4>   
+          <hr class="hr_top">                             
+          <p class="section"> Order Taking and Customer Ordering services </p>
+   <img src="images/appstore.png" class="img-responsive" style="height: 45px;  margin-top: 7%; display: inline;">
+   <img src="images/downarrow.png" style="float: right; height: 25px; display: inline; margin-top: 9%; padding-right: 2%;">
+         
+     
+     </div>
+     </div>
      <div class="sec2">
      	<img src="images/bookmark.png" class="img-responsive bookmark">
      	<p>
@@ -265,14 +268,14 @@ $this->load->view('include/header.php');
      	</p>
      	<h4 style="padding-top: 23%; font-weight: bolder;">Products <img src="images/downarrow.png" class="img-responsive" width="20px" height="20px" style="display: inline; margin-left: 7px; height: 25px;"></h4>
      </div>
-     <div class="row" style="padding: 0 15px 15px 15px ;">            
-     	<div class="col-sm-6 col-xs-12 col-lg-6 sec3_1" style="margin-right: 50px; margin-left: 40px; border-radius: 15px; width: 45%;">
+     <div class="row">            
+     	<div class="col-lg-6 col-sm-12 col-xs-12 sec3_1" style="padding-left: 0px; padding-right: 0px;">
      		<div id="sec3_p1">
      			<h2 style="padding-top: 43%;"><b>Placing Orders</b></h2>
      			<h2 style="margin: 0; font-weight: bolder;"><b>#smartphoneordering</b></h2>
      		</div>
      		<div id="sec3_p1_h" style="display: none; ">
-     			<div class="sec3_layer" style="border-radius: 15px; padding: 44% 0;">
+     			<div class="sec3_layer" style="border-radius: 15px; padding: 46% 0%;">
      				<img src="images/mac_silver.png" class="img-responsive" style=" margin:0 auto; height: 36px; margin-bottom: 3%;">
      				<h4 >Place orders at your own convenience.</h4>
      				<h4 style="margin: 0; ">#notforhomedelivery</h4>                    
@@ -284,7 +287,7 @@ $this->load->view('include/header.php');
      		</div>
      	</div>
 
-     	<div class="col-sm-6 col-xs-12 col-lg-6 sec3_2" style="border-radius: 15px;  width: 45%;">
+     	<div class="col-lg-6 col-sm-12 col-xs-12 sec3_2" style="padding-left: 0px; padding-right: 0px;">
      		<div id="sec3_p2">                  
      			<h2  style="padding-top: 43%; font-weight: bolder;"><b>Taking Orders *</b></h2>
      			<h2 style="margin: 0; "><b>#handheldPOS</b></h2>
@@ -293,7 +296,7 @@ $this->load->view('include/header.php');
      			</h4>
      		</div>
      		<div id="sec3_p2_h" style="display: none;">
-     			<div class="sec3_layer" style="border-radius: 15px;">
+     			<div class="sec3_layer" style="border-radius: 15px; padding: 46% 0%;">
      				<img src="images/android_silver.png" class="img-responsive" style=" margin: 0 auto; height: 36px; margin-bottom: 3%;">
      				<h4 style="line-height: 24px;">Just <b>type and enter</b> to take customer orders.<br>
      					Its lightning fast and connected to your POS.<br>
@@ -308,26 +311,26 @@ $this->load->view('include/header.php');
      	</div>
      	<div class="row" style="background-color: #778899; ">
      		<div class="col-sm-1 col-xs-2 add">                         
-     			<p class="vertical-text"><b></span>Add-ons for restaurants</b></p>
+     			<p class="vertical-text p1"><b></span>Add-ons for restaurants</b></p>
      			<!-- <span class="glyphicon glyphicon-star star-bottom"> -->
      		</div>          
      		<div class="col-sm-11 col-xs-10" style=" text-align: center; font-size: 16px; background-color: #fff; padding-left: 0px; padding-right: 0px;">
      			<div>
      				<img src="images/calc.png" style="width: 100px; height: 100px; margin-top: 4%;">
-     				<h2 style="padding: 3% 7% 7% 7%;">Connecting our services with the Point of Sale software,<p>for one-tap system feeding and ticket generation.</p></h2>
+     				<div class="responsive_text" >Connecting our services with the Point of Sale software,<p>for one-tap system feeding and ticket generation.</p></div>
      			</div>
      			<div style="background-color: #E3E7EA; padding: 2%; ">
      				<img src="images/system.png" style="height: 100px;">
-     				<h2 style="padding-left: 5%; padding-right: 5%;">afewtaps - Web Dashboard </h2>
-     				<h4>Handling operations. Works on any browser.</h4>
+     				<h2 class="dashboard" style="">afewtaps - Web Dashboard </h2>
+     				<h4 class="handling">Handling operations. Works on any browser.</h4>
      				<a href="<?php echo site_url(); ?>/welcome/management"><img src="images/arrow_right.png" class="img-responsive" style="margin: 1% auto;"></a>
      			</div>
      		</div>
      	</div>  
-     	<img src="images/star.png" class="img-responsive star_img" style="z-index: 1; position: absolute; margin-top: -35px;"> 
+     	<img src="images/star.png" class=" star_img" style="z-index: 1; position: absolute; margin-top: -35px;"> 
      	<div class="row" style="background-color: #778899;">
      		<div class="col-sm-1 col-xs-2 add">
-     			<p class="vertical-text"><b></span> Add-ons for Customers</b></p>
+     			<p class="vertical-text p2"><b></span> Add-ons for Customers</b></p>
      		</div>
      		<div class="col-sm-11 col-xs-10 customers" style="padding-left: 0px; padding-right: 0px;" >
      			<div>
@@ -378,7 +381,7 @@ $this->load->view('include/header.php');
      	</div>
      </div>
     	
-<div class="row" style="background-color: #000; color: #fff; padding: 7%; text-align: center; font-size: 20px;">
+<div class="" style="background-color: #000; color: #fff; padding: 7%; text-align: center; font-size: 20px;">
 	“What we propose to restaurants, is having a mix of both worlds (Manual & <br>Smartphone ordering) for the customer.”
 </div>
 <div class="movies" id="movies">
@@ -485,14 +488,14 @@ $this->load->view('include/header.php');
                 <div class="input_box">
                     <input type="text" class="form-control"  name="message" id="text" placeholder="Message" style="width: 100%;">
                 </div>  
-                <div class="input_box" style="padding-left: 8%;">
+                <div class="input_box submit " style="">
                     <input type="submit" name="submit" style="background-color: #000; color: #fff; font-weight: bolder; padding: 8% 27%;  margin: auto;  font-size: 17px; border-radius: 5px; text-transform: uppercase;">
                 </div>  
 
                 <?php echo form_close(); ?> 
                 
             </div>
-            <div class="insta row">
+            <div class="insta">
             	<img src="images/insta.png" class="img-responsive" style="margin: auto; width: 40px;">
             	<div class="container" style="padding-top: 3%; padding-bottom: 3%; padding-left: 35%;">
             		<ul  class="insta_ul" style="list-style: none; margin: auto;">
@@ -562,10 +565,10 @@ $this->load->view('include/header.php');
             				Copyright &copy; 2017 Think Different Technologies (P) Ltd
             			</p>
             			<div style="color: #fff; padding-top:17%; font-family: 'Myriad Pro';">
-            				<div class="col-sm-6">
-            					<img src="images/email.png" class="img-responsive" style="width: 50px; display: inline; padding-right: 1%;" >info@afewtaps.com
+            				<div class="col-lg-6 col-sm-12 email_footer">
+            					<img src="images/email.png" class="img-responsive" style="width: 50px; display: inline; padding-right: 1%; " ><span style="color:#fff;">info@afewtaps.com</span>
             				</div>
-            				<div class="col-sm-6">
+            				<div class="col-lg-6 col-sm-12 list">
             					<ul id="footer_list">
             						<li><a href="<?php echo site_url(); ?>/welcome/career" style="text-decoration: none; color: #fff;">Career</a></li>
                                       <li><a href="<?php echo site_url(); ?>/welcome/faq" style="text-decoration: none; color: #fff;">FAQ</li>
