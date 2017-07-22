@@ -516,7 +516,7 @@ span.sqr{
 }
 .Feedback{
 	background-image: url('feedback.jpg');
-	background-size: 100% 78%;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	text-align: center;
 	color: #fff;

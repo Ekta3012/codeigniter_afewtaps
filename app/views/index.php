@@ -272,7 +272,7 @@ $this->load->view('include/header.php');
      	<div class="col-lg-6 col-sm-12 col-xs-12 sec3_1" style="padding-left: 0px; padding-right: 0px;">
      		<div id="sec3_p1">
      			<h2 style="padding-top: 43%;"><b>Placing Orders</b></h2>
-     			<h2 style="margin: 0; font-weight: bolder;"><b>#smartphoneordering</b></h2>
+     			<h2 style="margin: 0; font-weight: bolder; padding-bottom: 43%;"><b>#smartphoneordering</b></h2>
      		</div>
      		<div id="sec3_p1_h" style="display: none; ">
      			<div class="sec3_layer" style="border-radius: 15px; padding: 46% 0%;">

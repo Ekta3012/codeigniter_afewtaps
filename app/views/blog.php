@@ -5,17 +5,6 @@ $this->load->view('include/header.php');
 ?>
 
 <body>
-<!-- navbar -->
-<?php
-
-$this->load->view('include/navibar.php');
-
-?>
-
-
-
-
-<!-- end of navbar -->
 
 <!-- the middle content -->
 <div style="padding-top:40px;padding-bottom:40px;">

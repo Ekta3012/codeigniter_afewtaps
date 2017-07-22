@@ -10,6 +10,7 @@
 			</div>
 			<div class="col-sm-6" style="text-align: right;">
 				<ul style="list-style: none;">
+					<li><a href="<?php echo site_url(); ?>/welcome/" style="text-decoration: none; color: #fff;">Home</a></li>
 			        <li><a href="<?php echo site_url(); ?>/welcome/career" style="text-decoration: none; color: #fff;">Career</a></li>
 			        <li><a href="<?php echo site_url(); ?>/welcome/faq" style="text-decoration: none; color: #fff;">FAQ</li>
 			        <li><a href="<?php echo site_url(); ?>/welcome/blog" style="text-decoration: none; color: #fff;">Blog</a></li>
